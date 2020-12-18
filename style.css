@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: pink;
+}
+
+.background{
+    background-color: rgb(160, 108, 108);
+    left: auto;
+    position: relative;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background: rgb(189, 126, 126);
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.imgback{
+    height: 400px;
+    width: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1604762511431-6280a12cb835?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
+}
+
+.imgback p{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgb(189, 126, 126);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.content{
+    text-align: inherit;
+}
+
+.row {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.row-title {
+    margin-right: 40px;
+    border-right: 2px solid black;
+}
+
+.imgsize {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.imgsize img{
+    height: 390px;
+    width: 390px;
+    border: 5px solid black;
+    filter: brightness(50%);
+    margin: 5px;
+}
+
+.imgsize img:hover {
+    filter: brightness(100%);
+}
+
+.big {
+    width: 800px;
+    height: 350px;
+    margin: 5px;
+    border: 5px solid black;
+    filter: brightness(50%);
+}
+.big:hover {
+    filter: brightness(100%);
+}
+
+#contactsection {
+    display: flex;
+    margin-left: 70px;
+}
+
+.phonenumber {
+    display: flex;
+}
+
+#work{
+    display: flex;
+    
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+ul li{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
