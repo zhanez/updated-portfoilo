@@ -1,6 +1,7 @@
-# updated-portfoilo
+# Updated-Portfolio
 
-In this assignment I had to recreate the portfoilo look. It included header with your name and a nav bar. After there was a picture underneath and after that there was "about me", "work", and "contact" sections.
+In this assignment I had to update the portfolio. It included header with your name and a nav bar. I created "about me", "work", and "contact" sections. My work section has my current pictures of my homeworks and project one. My phone number, email, github and linkedin are current.
 
-![portfoilo demo](./images/Finish.png) 
-![bottom portfoilo](./images/Finishtwo.png)
+![Portfoilo](./images/update.one.png) 
+![middle portfolio](./images/update.two.png)
+![bottom portfolio](./images/update.three.png)
